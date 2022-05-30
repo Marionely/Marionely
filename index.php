@@ -33,3 +33,11 @@ echo $resMultiple;
 
 $resDivision = divisionExample(10, 2);
 echo $resDivision;
+
+class User {
+
+    function getName($name) {
+        return $name;
+    }
+
+}
