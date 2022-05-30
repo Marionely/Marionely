@@ -48,6 +48,8 @@ class User {
         return $middleName;
     }
 
-
+    function getAge($age){
+        return $age;
+    }
 
 }
