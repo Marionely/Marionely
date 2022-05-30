@@ -51,5 +51,9 @@ class User {
     function getAge($age){
         return $age;
     }
-
 }
+
+$resClass = new User();
+
+$resName = $resClass->getName("Ivan");
+echo $resName;
