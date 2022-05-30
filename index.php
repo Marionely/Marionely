@@ -44,4 +44,10 @@ class User {
         return $lastName;
     }
 
+    function getMiddleName($middleName){
+        return $middleName;
+    }
+
+
+
 }
