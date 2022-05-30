@@ -63,3 +63,6 @@ echo $resLastName;
 
 $resMiddleName = $resClass->getMiddleName("Ivanovich");
 echo $resMiddleName;
+
+$resAge = $resClass->getAge(22);
+echo $resAge;
