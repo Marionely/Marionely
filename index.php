@@ -40,4 +40,8 @@ class User {
         return $name;
     }
 
+    function getLastName($lastName){
+        return $lastName;
+    }
+
 }
