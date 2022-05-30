@@ -57,3 +57,6 @@ $resClass = new User();
 
 $resName = $resClass->getName("Ivan");
 echo $resName;
+
+$resLastName = $resClass->getLastName("Ivanov");
+echo $resLastName;
