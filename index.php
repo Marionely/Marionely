@@ -60,3 +60,6 @@ echo $resName;
 
 $resLastName = $resClass->getLastName("Ivanov");
 echo $resLastName;
+
+$resMiddleName = $resClass->getMiddleName("Ivanovich");
+echo $resMiddleName;
